@@ -22,23 +22,23 @@
 <link rel="stylesheet" href="/checkout-sdk-node/styles.ebef1174.css">
 
 
-<link rel="preload" href="/checkout-sdk-node/styles.59853096.js" as="script">
+<link rel="preload" href="/checkout-sdk-node/styles.6aedd6be.js" as="script">
 
-<link rel="preload" href="/checkout-sdk-node/runtime~main.f8262059.js" as="script">
+<link rel="preload" href="/checkout-sdk-node/runtime~main.1d4474ee.js" as="script">
 
-<link rel="preload" href="/checkout-sdk-node/main.0dd1ac83.js" as="script">
+<link rel="preload" href="/checkout-sdk-node/main.467b61a9.js" as="script">
 
-<link rel="preload" href="/checkout-sdk-node/1.cfaac207.js" as="script">
+<link rel="preload" href="/checkout-sdk-node/1.f7b33e44.js" as="script">
 
-<link rel="preload" href="/checkout-sdk-node/2.dddb9d6e.js" as="script">
+<link rel="preload" href="/checkout-sdk-node/2.e5064912.js" as="script">
 
-<link rel="preload" href="/checkout-sdk-node/24.d0810d68.js" as="script">
+<link rel="preload" href="/checkout-sdk-node/24.a462df83.js" as="script">
 
-<link rel="preload" href="/checkout-sdk-node/3e0c8440.1bf8cfde.js" as="script">
+<link rel="preload" href="/checkout-sdk-node/3e0c8440.68bbcdb7.js" as="script">
 
-<link rel="preload" href="/checkout-sdk-node/17896441.535cdec0.js" as="script">
+<link rel="preload" href="/checkout-sdk-node/17896441.cd161a8f.js" as="script">
 
-<link rel="preload" href="/checkout-sdk-node/8a22f3a9.728367cd.js" as="script">
+<link rel="preload" href="/checkout-sdk-node/8a22f3a9.925d8e91.js" as="script">
 
 </head>
 <body>
@@ -50,23 +50,23 @@ The errors will be formatted like this:</p><div class="mdxCodeBlock_iHAB"><div c
 </span></div></div></div></div></div><blockquote><p>Keep in mind that for ValueError, the error.body is a string, not an object</p></blockquote><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_ZqCz" id="how-errors-are-determined"></a><a aria-hidden="true" tabindex="-1" class="hash-link" href="#how-errors-are-determined" title="Direct link to heading">#</a>How errors are determined</h2><p>The errors above are triggered by status codes that do not fall in the 20X Status codes, or by validation issues. This means that statuses like a 202, 204 will not throw an exception</p><div class="admonition admonition-tip alert alert--success"><div class="admonition-heading"><h5><span class="admonition-icon"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</h5></div><div class="admonition-content"><p>It&#x27;s important to understand that Declines, or 3D Secure responses do not throw an exception, since the status code associated with them is in the 20X range. In the Payments section you will see some examples of best practices when it comes to handling responses.</p></div></div></div></article><div class="margin-vert--lg"><nav class="pagination-nav"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/checkout-sdk-node/environment"><div class="pagination-nav__link--sublabel">Previous</div><div class="pagination-nav__link--label">« Environment</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/checkout-sdk-node/payments"><div class="pagination-nav__link--sublabel">Next</div><div class="pagination-nav__link--label">Payments »</div></a></div></nav></div></div></div><div class="col col--3"><div class="tableOfContents_TbNY"><ul class="contents contents__left-border"><li><a href="#sdk-specific-errors" class="contents__link">SDK specific errors</a></li><li><a href="#how-errors-are-determined" class="contents__link">How errors are determined</a></li></ul></div></div></div></div></main></div></div><footer class="footer footer--dark"><div class="container"><div class="text--center"><div>© 2020 Checkout.com    </div></div></div></footer>
 </div>
 
-<script src="/checkout-sdk-node/styles.59853096.js"></script>
+<script src="/checkout-sdk-node/styles.6aedd6be.js"></script>
 
-<script src="/checkout-sdk-node/runtime~main.f8262059.js"></script>
+<script src="/checkout-sdk-node/runtime~main.1d4474ee.js"></script>
 
-<script src="/checkout-sdk-node/main.0dd1ac83.js"></script>
+<script src="/checkout-sdk-node/main.467b61a9.js"></script>
 
-<script src="/checkout-sdk-node/1.cfaac207.js"></script>
+<script src="/checkout-sdk-node/1.f7b33e44.js"></script>
 
-<script src="/checkout-sdk-node/2.dddb9d6e.js"></script>
+<script src="/checkout-sdk-node/2.e5064912.js"></script>
 
-<script src="/checkout-sdk-node/24.d0810d68.js"></script>
+<script src="/checkout-sdk-node/24.a462df83.js"></script>
 
-<script src="/checkout-sdk-node/3e0c8440.1bf8cfde.js"></script>
+<script src="/checkout-sdk-node/3e0c8440.68bbcdb7.js"></script>
 
-<script src="/checkout-sdk-node/17896441.535cdec0.js"></script>
+<script src="/checkout-sdk-node/17896441.cd161a8f.js"></script>
 
-<script src="/checkout-sdk-node/8a22f3a9.728367cd.js"></script>
+<script src="/checkout-sdk-node/8a22f3a9.925d8e91.js"></script>
 
 
 </body>
